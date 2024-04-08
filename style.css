@@ -73,6 +73,7 @@
 
   /*Table*/
   .table, td {
+    min-width: 250px;
     border-style: dashed;
     border-collapse: collapse;
     border-color: #444343;
@@ -80,12 +81,13 @@
   }
 
   .table {
+    table-layout: fixed;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
     table-layout: auto;
-    width: 50%;
+    width: 100%;
   }
 
   .table a {
